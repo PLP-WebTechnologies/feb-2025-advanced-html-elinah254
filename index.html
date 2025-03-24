@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with Frontend Web Development</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Frontend Web Development</h1>
+        <p>Explore the essential tools and technologies you need to kickstart your journey in web development.</p>
+    </header>
+
+    <!-- Ordered List-->
+    <section>
+        <h2>Steps to Becoming a Frontend Developer</h2>
+        <ol type="i">
+            <li>Learn the Basics: HTML, CSS, and JavaScript</li>
+            <li>Master Responsive Design and CSS Frameworks</li>
+            <li>Understand Version Control (Git & GitHub)</li>
+            <li>Explore JavaScript Libraries like React</li>
+            <li>Build Projects and Create a Portfolio</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Inspiration for Your Journey</h2>
+        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg" alt="A developer working on frontend design" width="600">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Meet the Experts</h2>
+        <p>Here are some experienced frontend developers you can follow and reach out to for guidance:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elinah Mmbone</td>
+                    <td>123 Main St, Nairobi</td>
+                    <td>+25474567890</td>
+                    <td>mmboneelinah@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Wamboi</td>
+                    <td>30209- Kiambu road</td>
+                    <td>+25687654321</td>
+                    <td>janewambo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Adewale Yusuf</td>
+                    <td>345 Lagos</td>
+                    <td>+234122334455</td>
+                    <td>adewaleyusuf@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Gilbert Kambere</td>
+                    <td>376 Dar</td>
+                    <td>+2562344556</td>
+                    <td>gillykam@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Augustina Princess</td>
+                    <td>765 Laple St, Ghana</td>
+                    <td>+1445566778</td>
+                    <td>augustina@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Join Our Web Dev Community</h2>
+        <p>Sign up to get resources, tutorials, and updates on frontend development.</p>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label>Preferred Web Tech:</label><br>
+            <input type="radio" id="html" name="tech" value="HTML">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="tech" value="CSS">
+            <label for="css">CSS</label>
+            <input type="radio" id="js" name="tech" value="JavaScript">
+            <label for="js">JavaScript</label><br><br>
+
+            <label for="experience">Experience Level:</label>
+            <select id="experience" name="experience">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select><br><br>
+
+            <label>Technologies You Want to Learn:</label><br>
+            <input type="checkbox" id="react" name="tech_learn" value="React">
+            <label for="react">React</label>
+            <input type="checkbox" id="vue" name="tech_learn" value="Vue.js">
+            <label for="vue">Vue.js</label>
+            <input type="checkbox" id="bootstrap" name="tech_learn" value="Bootstrap">
+            <label for="bootstrap">Bootstrap</label><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+</body>
+</html>
